@@ -1,0 +1,80 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Index_layout.css">
+    <link rel="stylesheet" href="CSS/Home.css">
+    <link rel="stylesheet" href="CSS/Index_Content.css">
+    <link rel="stylesheet" href="CSS/Main_Menu.css">
+
+    <title> Home Page </title>
+
+    <script>
+        function OpenPage(item) {
+
+            if (item.getAttribute('id') === "btn_Home") {
+                document.getElementById("frm_Show").src = "Pages/Home.html";
+            }
+            if (item.getAttribute('id') === "btn_Men") {
+                document.getElementById("frm_Show").src = "Pages/Men_Shose.html";
+            }
+            if (item.getAttribute('id') === "btn_MenSport") {
+                document.getElementById("frm_Show").src = "Pages/Men_Sport_Shose.html";
+            }
+            if (item.getAttribute('id') === "btn_Women") {
+                document.getElementById("frm_Show").src = "Pages/Women_Shose.html";
+            }
+            if (item.getAttribute('id') === "btn_Baby") {
+                document.getElementById("frm_Show").src = "Pages/Baby_Shose.html";
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <div class="Page_banner">
+        <div class="Page_banner_content">
+            <img class="logo" src="IMG/MHH_Store.gif" alt="My Logo">
+            <span for="">Real Online shopping</span>
+
+        </div>
+
+    </div>
+    <br>
+    <div class="pageContent">
+
+        <div class="menus">
+
+            <span> &#8801; Menu</span>
+            <a id="btn_Home" onclick="OpenPage(this)" class="active">Home</a>
+            <a id="btn_Men" onclick="OpenPage(this)">Men's shose</a>
+            <a id="btn_MenSport" onclick="OpenPage(this)">Men's sport shose</a>
+            <a id="btn_Women" onclick="OpenPage(this)">Women's shose</a>
+            <a id="btn_Baby" onclick="OpenPage(this)">Baby's shose</a>
+            <!-- <button  onclick="OpenHome(this)" class="active"></button> -->
+
+        </div>
+
+        <div class="displayPages">
+            <h1 id="demo">To dispaly pages</h1>
+            <iframe id="frm_Show" width="100%" src="pages/home.html" class="frm_Show"></iframe>
+
+            <!-- <script src="JS/Functions.js"></script> -->
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+body{
+    background-color: #084887;
+    margin-top: 0;
+    /* padding: 0; */
+}
+.Page_banner{
+width: 100%;
+transition:  width 120s;
+background-color: #f7f5fb;
+height:200px;
+margin: 0px;
+background-position: 0px 0px;
+
+transition: 500ms;
+}
+
+.Page_banner_content{
+    margin-top: 1px;
+}
+
+
+.Page_banner_content span{
+         /* #f58a07; */
+        font-size: 140px;
+        transition:1200ms;  
+        float: left;
+
+        padding-left: 50px;
+        margin-top: 10px;
+        color:#0f8aa0;
+        /* position: relative; */       
+}
+
+
+.logo{
+    width: 190px;
+    transition: 12s;
+    height: 190px;
+    padding-left: 50px;
+    float: left;
+    margin-top: 15px;
+    /* position: relative; */
+    
+}
+ /* .Title{
+    color:#e6e20f;
+    color:#0a1c1f;
+     /* #f58a07; */
+    /* font-size: 140px;
+    float: left;
+    padding-left: 50px;
+    margin-top: 10px;
+    transition: 1200ms;
+    color:#0f8aa0;
+    transition: 120ms; */
+ /* }   */
+
+
+.frm_Show{
+    background-color: rgb(230, 230, 230);
+    width: 99%;
+    margin-left: 5px;
+    height: 100%;
+    border-width: 0px;
+    border-style: groove;
+
+}
+/* .Title label.active{
+    color:#2292a4;
+     /* #f58a07; */
+    /* font-size: 140px;
+    float: left;
+    padding-left: 50px;
+    margin-top: 10px; */
+    
+/* } */
