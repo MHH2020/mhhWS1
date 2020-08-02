@@ -28,10 +28,14 @@
           document.getElementById("frm_Show").src = "Pages/Baby_Shose.html";
         }
       }
+
+      function loadFunction() {
+        document.getElementById("frm_Show").src = "Pages/Home.html";
+      }
     </script>
   </head>
 
-  <body>
+  <body onload="loadFunction();">
     <div class="Page_banner">
       <div class="Page_banner_content">
         <img
@@ -56,12 +60,7 @@
 
       <div class="displayPages">
         <h1 id="demo">To dispaly pages</h1>
-        <iframe
-          id="frm_Show"
-          width="100%"
-          src="https://raw.githubusercontent.com/MHH2020/mhhWS1/master/Pages/Home.html"
-          class="frm_Show"
-        ></iframe>
+        <iframe id="frm_Show" width="100%" class="frm_Show"></iframe>
 
         <!-- <script src="JS/Functions.js"></script> -->
       </div>
