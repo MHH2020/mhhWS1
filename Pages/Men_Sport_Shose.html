@@ -5,23 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/Home.css">
     <title>Men_sport_Shose</title>
+    <link rel="stylesheet" href="../CSS/Home.css">
+    <link rel="stylesheet" href="../CSS/Pages.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <script src="JS/Functions.js"></script>
+    <script src="../JS/libirary.js"></script>
+    <!-- <script src="JS/libirary.js"></script> -->
 </head>
 
-<body>
+<body ng-app="ThisApp">
 
     <div class="container">
         <div class="container_Header">
 
-            <h1>Men_sport_Shose</h1>
+            <h1>Men's Sport Shose</h1>
+
+        </div>
+        <div ng-controller="getMenSportProducts">
+            &nbsp <strong>search:</strong> <input class="input_search" type="text" placeholder="Search for Employee"
+                ng-model='search'>
+            <!-- <ul ng-repeat="d in data|orderBy:'EmpName'" class="ul_Emp"> -->
+            <ul ng-repeat="d in data|filter:search" class="ul_Emp">
+                <li class="li_Emp">
+                    <img src="{{d.P_Image}}" alt="" class="img_Emp">
+                    <br>
+
+                    &nbsp product: {{ d.P_Name }} <br> &nbsp price: {{d.P_Price}}
+
+                </li>
+            </ul>
+
 
         </div>
 
     </div>
 
+    <!-- https://raw.githubusercontent.com/MHH2020/MyDBs/master/MSshose.JSON -->
+<div class="footer">
 
 
 
+
+</div>
+
+    
 </body>
 
 </html>

@@ -1,0 +1,283 @@
+.banner {
+    width: 100%;
+    background-color: #140f2d;
+    height: 160px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+    /*padding:50px 100px 10px 80px;*/
+}
+
+body {
+    background-color: #eae6e5;
+}
+
+.contents {
+    width: 100%;
+    background-color: #d8d4d5;
+    height: 70%;
+    color: black;
+    font-weight: bold;
+    position: relative;
+}
+
+.footer {
+    width: 100%;
+    background-color: #424242;
+    height: 150px;
+    color: white;
+    text-align: left;
+    margin-top: 70%;
+}
+
+.fa {
+    padding: 18px;
+    font-size: 10px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.div_SM{
+
+    float: right;
+    position: relative;
+
+}
+.fa:hover {
+    opacity: 0.5;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    float:right;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+    background-color: rgb(226, 83, 17);
+    position: relative;
+    float: right;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropBtn {
+    background-color: darkcyan;
+    color: floralwhite;
+    font-weight: bold;
+    font-size: medium;
+    padding: 17px;
+    border: none;
+}
+
+.dropdownContent {
+    background-color: #71aaaa;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    width: 50px;
+    min-width: 170px;
+    z-index: 1;
+    display: none;
+    position: absolute;
+}
+
+.dropdownContent a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 16px;
+    z-index: 1;
+}
+
+.dropdownContent a:hover {
+    background-color: #d9dfdf;
+}
+
+.dropdown:hover .dropdownContent {
+    display: block;
+}
+
+.dropdown:hover .dropBtn {
+    background-color: #4CAF50;
+}
+
+.div_PIC_game{
+
+    border-radius:25px ;
+    width: 300px;
+    height: 420px;
+    margin-left: 10px;
+    /* background-color: burlywood; */
+background-color: #eae6e5;
+box-shadow: 0 4px 8px 0;
+float: left;
+
+
+
+}
+.div_PIC_game_disc{
+
+position: relative;
+border-radius: 0 0 25px 25px;
+width: 95%;
+height: 125px;
+padding: 8px;
+overflow: hidden;
+color: #f7f2f0;
+background-color: #140f2d;
+
+
+}
+.div_PIC_game_disc a{text-decoration: none;color: #f1ed09;}
+
+.img_game{
+    width: 95%; 
+    height: 60%;
+    /*   border-radius: 15px 50px 30px; */ 
+    padding: 7px ;
+    border-radius:  25px 25px 0px 0px;
+    box-shadow: darkgrey;
+    box-shadow: 5 5;
+    }
+    .img_Emp{
+
+        width: 270px;
+        height: 250px;
+        border-radius: 14px 14px 0px 0px ;
+      
+    }
+    .li_Emp{
+        float: left;
+        background-color: #373850;
+        border-radius: 15px ;
+        margin-left: 20px;
+        margin-top: 20px;
+        color: cornsilk;
+        height: 320px;
+        box-shadow: 0px 4px 8px 0px  rgb(128, 128, 128,.9);
+    }
+    .ul_Emp{
+        font-size: 16px;font-weight: bold;list-style-type: none;color: brown;
+    }
+    .div_Emp{
+        background-color: rgb(255, 255, 255);
+        position: relative;
+        height: 960px;
+        border-radius: 15px 15px 0 0;
+        border-style: groove;
+        
+    }
+    .div_Emp h1{
+        padding-left: 10px;
+        background-color: rgb(54, 54, 92);
+        margin-top: 0px;
+        color: orange;
+        border-radius: 13px 13px 0 0;
+    }
+
+    .div_PIC_game_container{
+      border-style: groove;  
+    background-color: #455d8f;
+    height: 500px;
+    border-radius: 15px 15px 0 0;
+    }
+    .div_PIC_game_container h1{
+      
+        margin-top: 0;
+        border-radius: 13px 13px 0 0;
+        /* border-style: groove; */
+        color: papayawhip;
+        background-color: red;
+        padding-left: 10px;
+    }
+    .input_search{
+
+        background-color: honeydew;
+        color: indigo;
+        margin-left: 30px;
+        font-size: 20px;
+    }
+    .li_Emp2{
+        float: right;
+        background-color: #373850;
+        border-radius: 15px ;
+        margin-left: 20px;
+        margin-top: 20px;
+        color: cornsilk;
+        height: 320px;
+        box-shadow: 0px 4px 8px 0px  rgb(128, 128, 128,.9);
+        z-index: 1;
+        position: relative;
+    }
+    .img_Emp2{
+
+        width: 250px;
+        height: 250px;
+        border-radius: 14px 14px 0px 0px ;
+        position: relative;
+        display: inline-block;
+        /* margin-left: 20px; */
+    }
+    /* .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    } */
+
+
+    .img_Emp2 .img_Emp2_show{
+
+        display: none;
+        position: absolute;
+        z-index: 99;
+        width: 700px;
+        height: 700px;
+        margin-left: 30px;
+        transition: 3 ease;
+        border-radius: 13px;
+        box-shadow: 0px 4px 8px 0px  rgb(128, 128, 128,.9);
+    }
+        /* z-index: 2;width: 750px; */ 
+        /* height: 750px; */
+        /* border-radius: 14px 14px 0px 0px; */
+        /* opacity: 0; */
+        /* position:absolute;  */
+        /* backface-visibility: hidden;
+    /* } */
+
+    .img_Emp2:hover  .img_Emp2_show{
+
+            display:inline;
+          
+          
+            /* animation-delay: 1 ease; */
+            /* backface-visibility: visible; */
+            
+    
+
+
+        }
+        /* .img_Emp2_show:hover{
+            display: block;
+            width: 700px;
+            height: 700px;
+            margin-left: 200px;
+            transform: scale(1.2);
+            animation-delay: 1 ease;
+        } */

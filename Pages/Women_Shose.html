@@ -6,9 +6,16 @@
     <link rel="stylesheet" href="../CSS/Home.css">
     <title>Women_Shose</title>
     <script src="JS/Functions.js"></script>
+
+    <link rel="stylesheet" href="../CSS/Home.css">
+    <link rel="stylesheet" href="../CSS/Pages.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="JS/Functions.js"></script>
+    <script src="../JS/libirary.js"></script>
 </head>
 
-<body>
+<body  ng-app="ThisApp">
 
     <div class="container">
         <div class="container_Header">
@@ -16,8 +23,32 @@
             <h1>Women_Shose</h1>
 
         </div>
+        <div ng-controller="getWomenProducts">
+            &nbsp <strong>search:</strong> <input class="input_search" type="text" placeholder="Search for Employee"
+                ng-model='search'>
+            <!-- <ul ng-repeat="d in data|orderBy:'EmpName'" class="ul_Emp"> -->
+            <ul ng-repeat="d in data|filter:search" class="ul_Emp">
+                <li class="li_Emp">
+                    <img src="{{d.P_Image}}" alt="" class="img_Emp">
+                    <br>
+
+                    &nbsp product: {{ d.P_Name }} <br> &nbsp price: {{d.P_Price}}
+
+                </li>
+            </ul>
+
+
+        </div>
 
     </div>
+
+    <!-- https://raw.githubusercontent.com/MHH2020/MyDBs/master/MSshose.JSON -->
+<div class="footer">
+
+
+
+
+</div>
 
 
 
