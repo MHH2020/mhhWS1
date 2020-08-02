@@ -1,29 +1,27 @@
-.container{
-background-color: darkgray;
-color: deepskyblue;
-width: 100%;
-height: 700px;
-border-radius: 15px 15px 0px 0px;
-transition: 120ms;
-position: relative;
-
+.container {
+  background-color: darkgray;
+  color: deepskyblue;
+  width: 100%;
+  height: 2000px;
+  border-radius: 15px 15px 0px 0px;
+  transition: 120ms;
+  position: relative;
 }
- 
-.container_Header{
-position: relative;
-background-color: dimgrey;
-width: 99.5%;
-height: 70px;
-border-radius: 14px 14px 0pc 0px;
-color: floralwhite;
-padding-left: 7px;
-padding-top: 1px;
 
-} 
-.container_Header h1{
-color: floralwhite;
-font-size: 40px;
-margin-top: 10px;
-text-align: center;
-text-shadow:1px 2px #0d0e0f;
+.container_Header {
+  position: relative;
+  background-color: dimgrey;
+  width: 99.5%;
+  height: 70px;
+  border-radius: 14px 14px 0pc 0px;
+  color: floralwhite;
+  padding-left: 7px;
+  padding-top: 1px;
+}
+.container_Header h1 {
+  color: floralwhite;
+  font-size: 40px;
+  margin-top: 10px;
+  text-align: center;
+  text-shadow: 1px 2px #0d0e0f;
 }

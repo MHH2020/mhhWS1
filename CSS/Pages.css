@@ -28,7 +28,8 @@ body {
     height: 150px;
     color: white;
     text-align: left;
-    margin-top: 70%;
+    margin-top: 5%;
+    position: relative;
 }
 
 .fa {
